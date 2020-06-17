@@ -1,0 +1,23 @@
+{
+  "name": "jofulanetti-mascara",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofulanetti/mascara.git"
+  },
+  "author": "Willian Hideki <willhkblz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jofulanetti/mascara/issues"
+  },
+  "homepage": "https://github.com/jofulanetti/mascara#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

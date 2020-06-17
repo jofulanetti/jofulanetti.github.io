@@ -1,0 +1,159 @@
+/**
+  * by theWhK - 2020
+  */
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Courier Prime', serif;
+    background: black;
+    font-size: 10px;
+}
+
+.header {
+    padding: 5px 0;
+    background: white;
+    text-align: center;
+}
+
+
+.header .logo {
+    display: inline-block;
+}
+
+.header .logo img {
+    max-width: 44px;
+}
+
+.container {
+    margin: 0 20px;
+    width: calc(100% - 40px);
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+    }
+}
+
+/* Conteúdo */
+
+.content-wrapper {
+    margin-top: 20px;
+    color: white;
+}
+
+.content-wrapper .img-70 {
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+}
+
+.content-wrapper .img-35 {
+    display: block;
+    margin: 30px auto;
+    width: 35%;
+}
+
+.content-wrapper .text {
+    margin: 25px 0;
+    font-size: 1.5em;
+}
+
+.content-wrapper .bold {
+    font-weight: 700;
+}
+
+/* Menu */
+
+.menu-wrapper .three-dots {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu-wrapper .three-dots:before {
+    content: '...';
+    display: inline-block;
+    color: white;
+}
+
+.page-call-box {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+.page-call-box:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.page-call-box:before {
+    content: '>';
+    display: block;
+    position: absolute;
+    color: white;
+    top: calc(50% - 8px);
+    left: 15px;
+}
+
+.page-call-box.opened:before {
+    transform: rotate(90deg);
+}
+
+.page-call-box:after {
+    content: '<';
+    display: block;
+    position: absolute;
+    color: white;
+    top: calc(50% - 8px);
+    right: 15px;
+}
+
+.page-call-box.opened:after {
+    transform: rotate(-90deg);
+}
+
+.menu-wrapper .arroba-box-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.menu-wrapper .arroba-box {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+/* Home */
+
+.home-content .box {
+    padding: 25px 30px;
+    background: white;
+    color: black;
+}
+
+.home-content .box .title {
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.5em;
+}
+
+.home-content .box .text {
+    margin: 0;
+    margin-top: 18px;
+    font-size: 1.6em;
+}
