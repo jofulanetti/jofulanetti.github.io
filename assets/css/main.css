@@ -54,6 +54,12 @@ body {
     width: 70%;
 }
 
+@media screen and (min-width: 1000px) {
+    .content-wrapper .img-70 {
+        width: 35%;
+    }
+}
+
 .content-wrapper .img-35 {
     display: block;
     margin: 30px auto;
