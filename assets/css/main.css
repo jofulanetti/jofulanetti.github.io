@@ -2,6 +2,11 @@
   * by theWhK - 2020
   */
 
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 body {
     scroll-behavior: smooth;
     font-family: 'Courier Prime', serif;
